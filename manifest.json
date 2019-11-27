@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Prayer",
+    "description": "Prayer",
+    "version": "1.0",
+	"icons": {"48":"icon.png"},
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": ["notifications"],
+	"background":{
+        "scripts": ["background.js"]
+    }
+}
